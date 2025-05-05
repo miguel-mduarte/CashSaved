@@ -1,0 +1,34 @@
+@media (max-width: 992px) {
+    header .container {
+        max-width: 100%;
+        padding: 0 15px;
+        flex-wrap: wrap;
+    }
+
+    header .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    header .user-config {
+        margin-left: 0;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    header .user-config img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    header nav.d-md-flex {
+        display: none !important;
+    }
+}

@@ -1,0 +1,75 @@
+header {
+    background-color: var(--turquesa);
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+header .navbar-brand {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+header .navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+header .navbar-brand h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: var(--turquesa-escuro);
+    color: #ffffff;
+}
+
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: var(--turquesa-escuro);
+}
+
+header .user-config {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header .user-config img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .user-config a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .user-config a:hover {
+    text-decoration: underline;
+}

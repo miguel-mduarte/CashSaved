@@ -1,0 +1,25 @@
+.dropdown-toggle {
+    background-color: var(--turquesa);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #d9d9d9;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--turquesa);
+    color: #ffffff;
+}
+
+.dropdown-divider {
+    border-color: #333333;
+}

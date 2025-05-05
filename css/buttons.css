@@ -1,0 +1,9 @@
+.btn-success {
+    background-color: var(--turquesa);
+    border-color: var(--turquesa);
+}
+
+.btn-success:hover {
+    background-color: var(--turquesa-escuro);
+    border-color: var(--turquesa-escuro);
+}
