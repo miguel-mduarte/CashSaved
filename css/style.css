@@ -1,0 +1,32 @@
+*{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+header, .nav{
+    display: flex;
+    background-color: #267E6E;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav.main-menu{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    color: #d9d9d9;
+}
+.title-icon{
+    display: flex;
+    align-items: center;
+    font-style: bold;
+    text-decoration: underline;
+    color: #d9d9d9;
+}
+.title-icon img{
+    height: 67px;
+    width: auto;
+}
