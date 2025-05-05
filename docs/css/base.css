@@ -33,3 +33,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.login, .register {
+    background-image: url('../img/background1.png'); /* Caminho relativo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}  
+.title {
+    color: var(--turquesa);
+    font-weight: bold;
+}
