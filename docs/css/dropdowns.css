@@ -1,9 +1,14 @@
+header .dropdown-toggle::after {
+    display: none; /* Remove a setinha padrão do dropdown */
+}
+
 .dropdown-toggle {
     background-color: var(--turquesa);
     color: #ffffff;
     border-radius: 5px;
     padding: 10px;
     border: none;
+    appearance: none;
 }
 
 .dropdown-menu {
