@@ -20,7 +20,8 @@ novaCategoriaForm.addEventListener('submit', (event) => {
 
     const novaCategoria = `
         <tr>
-            <td style="background-color: ${cor}; color: white; text-align: center;">
+            <td>
+                <div style="background-color: ${cor}; color: white; text-align: center; border-radius: 15px;"
                 <i class="${icone}"></i>
             </td>
             <td>${nome}</td>
