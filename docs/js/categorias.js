@@ -22,7 +22,8 @@ novaCategoriaForm.addEventListener('submit', (event) => {
         <tr>
             <td>
                 <div style="background-color: ${cor}; color: white; text-align: center; border-radius: 15px;"
-                <i class="${icone}"></i>
+                    <i class="${icone}"></i>
+                </div>    
             </td>
             <td>${nome}</td>
             <td>${descricao}</td>
